@@ -15,3 +15,14 @@ i7z
 
 # CPU frequency
 sudo cpupower frequency-set -u 1.2GHz
+
+# Touchpad
+# detail : https://wiki.debian.org/SynapticsTouchpad
+mkdir -p /etc/X11/xorg.conf.d
+echo 'Section "InputClass"
+  Identifier "libinput touchpad catchall"
+  MatchIsTouchpad "on"
+  MatchDevicePath "/dev/input/event*"
+  Driver "libinput"
+  Option "Tapping" "on"
+EndSection' | tee /etc/X11/xorg.conf.d/40-libinput.conf
