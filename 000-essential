@@ -7,4 +7,5 @@ apt-get install \
   dnsutils \
   wireless-tools \
   wpaspplicant \
-  git
+  git \
+  firefox-esr
