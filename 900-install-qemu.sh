@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # install QEMU
 apt-get install qemu 
 

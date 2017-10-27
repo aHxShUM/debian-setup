@@ -1,5 +1,5 @@
 #
-# /etc/vim/vimrc.local
+# path : /etc/vim/vimrc.local
 #
 
 :set mouse-=a

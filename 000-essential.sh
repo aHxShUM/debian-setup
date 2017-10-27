@@ -11,4 +11,7 @@ apt-get install \
   wpaspplicant \
   git \
   firefox-esr \
-  curl
+  curl \
+  sudo
+  
+adduser <user> sudo
