@@ -1,0 +1,4 @@
+apt-get install qemu qemu-kvm libvirt-clients libvirt-daemon-system
+
+adduser <youruser> libvirt
+adduser <youruser> libvirt-qemu
