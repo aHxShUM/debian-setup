@@ -1,3 +1,4 @@
+```
 apt-get install \
   vim \
   xorg \
@@ -10,3 +11,4 @@ apt-get install \
   git \
   firefox-esr \
   curl
+```
