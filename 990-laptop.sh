@@ -3,6 +3,9 @@
 # Keyboard backlight
 echo 1 | sudo tee /sys/class/leds/asus::kbd_backlight/brightness
 
+# Screen backlight
+sudo xbacklight 1
+
 # CPU turbo boost
 echo 1 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
 
