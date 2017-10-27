@@ -6,5 +6,6 @@ apt-get install \
   net-tools \
   dnsutils \
   wireless-tools \
-  wpaspplicant
+  wpaspplicant \
+  git
   
