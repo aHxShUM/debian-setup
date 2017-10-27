@@ -7,4 +7,4 @@ deb http://httpredir.debian.org/debian/ stretch main contrib non-free
 ---
 
 if cannot boot into login page
-use nomodeset parameter
+use `nomodeset` parameter
