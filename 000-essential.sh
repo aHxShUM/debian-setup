@@ -18,4 +18,6 @@ apt-get install \
 adduser <user> sudo
 
 # Clipboard manager
-apt-get install copyq
+# apt-get install copyq
+apt-get install xsel xclip xcopy
+
