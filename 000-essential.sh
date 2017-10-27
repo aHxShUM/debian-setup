@@ -13,5 +13,9 @@ apt-get install \
   firefox-esr \
   curl \
   sudo
-  
+
+# add to sudoer
 adduser <user> sudo
+
+# Clipboard manager
+apt-get install copyq
