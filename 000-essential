@@ -8,4 +8,5 @@ apt-get install \
   wireless-tools \
   wpaspplicant \
   git \
-  firefox-esr
+  firefox-esr \
+  curl
