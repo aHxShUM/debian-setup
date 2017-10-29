@@ -13,7 +13,8 @@ apt-get install \
   firefox-esr \
   curl \
   sudo \
-  alsa-utils
+  alsa-utils \
+  tree
 
 # add to sudoer
 adduser <user> sudo
