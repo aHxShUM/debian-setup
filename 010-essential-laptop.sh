@@ -2,5 +2,4 @@
 
 apt-get install \
   xbacklight \
-  cpupower \
-  i7z
+  linux-cpupower
