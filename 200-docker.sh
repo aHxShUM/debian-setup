@@ -3,7 +3,7 @@
 # install docker
 wget -qO- get.docker.com | sh
 
-adduser <user> docker
+# adduser <user> docker
 
 # install docker-compose
 # detail : https://github.com/docker/compose/releases
