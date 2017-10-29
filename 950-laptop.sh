@@ -26,3 +26,7 @@ echo 'Section "InputClass"
   Driver "libinput"
   Option "Tapping" "on"
 EndSection' | tee /etc/X11/xorg.conf.d/40-libinput.conf
+
+# fix Dropbox
+LD_LIBRARY_PATH=~/.dropbox-dist/dropbox-lnx.x86_64-3.8.8/
+ldd ~/.dropbox-dist/dropbox-lnx.x86_64-3.8.8/* 2 > /dev/null | grep "not found"
