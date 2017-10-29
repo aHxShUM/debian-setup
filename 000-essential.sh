@@ -12,7 +12,8 @@ apt-get install \
   git \
   firefox-esr \
   curl \
-  sudo
+  sudo \
+  alsa-utils
 
 # add to sudoer
 adduser <user> sudo
