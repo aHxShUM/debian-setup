@@ -9,6 +9,9 @@ echo "deb http://httpredir.debian.org/debian/ stretch main contrib non-free" | t
 apt-get update
 apt-get install nvidia-driver
 
+# GPU usage
+apt-get install nvidia-smi
+
 #
 # if cannot boot into login page
 # use `nomodeset` parameter at boot
