@@ -14,7 +14,8 @@ apt-get install \
   curl \
   sudo \
   alsa-utils \
-  tree
+  tree \
+  whois
 
 # add to sudoer
 adduser <user> sudo
