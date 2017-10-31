@@ -2,4 +2,6 @@
 
 apt-get install \
   xbacklight \
-  linux-cpupower
+  linux-cpupower \
+  tlp \
+  powertop
