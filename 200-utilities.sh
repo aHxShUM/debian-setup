@@ -1,3 +1,16 @@
+#!/bin/sh
+
+# Office
+apt-get install \
+  libreoffice
+
+# Image
 apt-get install \
   gimp \
-  libreoffice
+  inkscape
+
+# PDF
+apt-get install \
+  xournal \
+  pdfmod \
+  pdfshuffler
