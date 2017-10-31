@@ -1,7 +1,11 @@
 #!/bin/sh
 
+# Power management
 apt-get install \
-  xbacklight \
   linux-cpupower \
   tlp \
   powertop
+
+# Backlight
+apt-get install \
+  xbacklight
