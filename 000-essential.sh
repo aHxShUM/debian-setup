@@ -27,3 +27,6 @@ apt-get install xsel
 
 # Hibernate
 apt-get install uswsusp
+
+# Input method
+apt-get install ibus-cangjie
