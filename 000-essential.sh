@@ -29,4 +29,5 @@ apt-get install xsel
 apt-get install uswsusp
 
 # Input method
+# choices : ibus, scim, fcitx
 apt-get install ibus-cangjie
