@@ -1,6 +1,10 @@
 #!/bin/sh
 
 echo '
+###
+# Ah shum
+###
+
 # Program
 exec --no-startup-id dropbox start -i
 
