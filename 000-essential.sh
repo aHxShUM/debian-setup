@@ -24,7 +24,3 @@ adduser <user> sudo
 # list : https://wiki.archlinux.org/index.php/clipboard
 # choices : copyq, xclip, xcopy, clipit, xsel
 apt-get install xsel
-
-# Input method
-# choices : ibus, scim, fcitx
-apt-get install ibus-cangjie
