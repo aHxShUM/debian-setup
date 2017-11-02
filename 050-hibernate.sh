@@ -14,3 +14,13 @@ echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
 # Use less swap
 echo 'vm.swappiness=10' | tee -a /etc/sysctl.d/swap.conf
 sysctl -p
+
+################
+# Bug fix
+################
+# if initramfs fails to see your swap file
+#
+# edit /etc/default/grub
+#
+#   GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda1 quiet"
+#
