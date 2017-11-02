@@ -1,6 +1,7 @@
 #!/bin/sh
 
-echo '# Program
+echo '
+# Program
 exec --no-startup-id dropbox start -i
 
 # Hotkeys
