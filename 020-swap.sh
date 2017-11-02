@@ -1,9 +1,10 @@
 #!/bin/sh
 
 # Add swapfile
-SWAPFILE="/swapfile"
+SWAPFILE=${1:-/swapfile}
 
 fallocate -l 4G $SWAPFILE
+chmod 600 $SWAPFILE
 mkswap $SWAPFILE
 swapon $SWAPFILE
 
