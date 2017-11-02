@@ -3,10 +3,15 @@
 echo '# Program
 exec --no-startup-id dropbox start -i
 
-# Custom
+# Hotkeys
 bindsym Mod1+F1 exec amixer -q set Master 2%+ unmute
 bindsym Mod1+F2 exec amixer -q set Master 2%- unmute
 bindsym Mod1+F3 exec amixer -q set Master toggle
+
+# Hotkeys for laptop
+#bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ unmute
+#bindsym XF86AudioLowerVolume exec amixer -q set Master 2%- unmute
+#bindsym XF86AudioMute exec amixer -q set Master toggle
 
 # Config
 focus_follows_mouse no
