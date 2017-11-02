@@ -20,7 +20,9 @@ sysctl -p
 ################
 # if initramfs fails to see your swap file
 #
-# edit /etc/default/grub
+# 1. edit /etc/default/grub
 #
 #   GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda1 quiet"
+#
+# 2. run update-grub
 #
