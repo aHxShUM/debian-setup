@@ -12,7 +12,7 @@ swapon /swapfile
 echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
 
 # Use less swap
-echo 'vm.swappiness=10' | tee -a /etc/sysctl.d/50-swap.conf
+echo 'vm.swappiness=10' | tee /etc/sysctl.d/50-swap.conf
 sysctl -p
 
 ################
