@@ -1,3 +1,5 @@
 #!/bin/sh
 
-echo $1 | tee /sys/devices/system/cpu/intel_pstate/no_turbo
+FLAG=${1:-1}
+
+echo $FLAG | tee /sys/devices/system/cpu/intel_pstate/no_turbo
