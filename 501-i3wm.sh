@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# i3wm Docs
+#   http://i3wm.org/docs/userguide.html
+
 echo '
 #################################
 
@@ -11,6 +14,8 @@ exec --no-startup-id ibus-daemon --xim -d -r
 bindsym Mod1+F1 exec amixer -q set Master 2%+ unmute
 bindsym Mod1+F2 exec amixer -q set Master 2%- unmute
 bindsym Mod1+F3 exec amixer -q set Master toggle
+
+bindsym $mod+Shift+a focus child
 
 # Hotkeys for laptop
 #bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ unmute
