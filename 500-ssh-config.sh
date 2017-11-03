@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cp -r ~/Dropbox/VMshared/docs/ssh-key ~/.ssh/keys
 chown -R ahshum ~/.ssh/keys
 chmod -R 700 ~/.ssh/keys
