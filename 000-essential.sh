@@ -8,7 +8,7 @@ apt-get install \
   net-tools \
   dnsutils \
   wireless-tools \
-  wpaspplicant \
+  wpasupplicant \
   git \
   firefox-esr \
   curl \
