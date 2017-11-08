@@ -11,7 +11,7 @@ adduser $USER libvirt-qemu
 
 # SPICE
 # https://www.spice-space.org/download.html
-apt-get install virt-viewer libspice-protocol-dev libspice-server1
+# apt-get install virt-viewer libspice-protocol-dev libspice-server1
 
 # SPICE Guest
 #
