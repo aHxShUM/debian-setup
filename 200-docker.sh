@@ -1,5 +1,7 @@
 #!/bin/sh
 
+USER=${1:-ahshum}
+
 # install docker
 wget -qO- get.docker.com | sh
 
