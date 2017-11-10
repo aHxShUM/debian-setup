@@ -25,5 +25,5 @@ bindsym $mod+Shift+a focus child
 # Config
 focus_follows_mouse no
 hide_edge_borders smart
-new_window pixel 1
+new_window pixel 3
 ' | tee -a ~/.config/i3/config
