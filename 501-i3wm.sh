@@ -25,6 +25,5 @@ bindsym $mod+Shift+a focus child
 # Config
 focus_follows_mouse no
 hide_edge_borders smart
-for_window [class="Google-chrome"] border pixel 1
-for_window [class="Atom"] border pixel 1
+new_window pixel 1
 ' | tee -a ~/.config/i3/config
