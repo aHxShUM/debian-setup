@@ -2,7 +2,6 @@
 
 # Chrome
 # Atom
-# Dropbox
 # Qute browser
 
 # install deps
