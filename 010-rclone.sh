@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# rclone
+#
+#   github:
+#     https://github.com/ncw/rclone
+#
+#   homepage:
+#     https://rclone.org/
+
 # download
 curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
 7z x rclone-current-linux-amd64.zip
