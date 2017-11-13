@@ -14,4 +14,5 @@ ExecStart=/bin/systemctl restart NetworkManager.service
 [Install]
 WantedBy=suspend.target
 WantedBy=hibernate.target
-WantedBy=hybrid-sleep.target' | tee /etc/systemd/system/wifi-resume.service
+WantedBy=hybrid-sleep.target
+' | tee /etc/systemd/system/wifi-resume.service
