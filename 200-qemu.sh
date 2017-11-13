@@ -11,6 +11,9 @@ apt-get install -y qemu-kvm libvirt-clients libvirt-daemon-system
 adduser $USER libvirt
 adduser $USER libvirt-qemu
 
+# install OVMF
+apt-get install ovmf
+
 # SPICE
 # https://www.spice-space.org/download.html
 # apt-get install virt-viewer libspice-protocol-dev libspice-server1
