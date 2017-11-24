@@ -15,6 +15,8 @@ bindsym Mod1+F2 exec amixer -q set Master 2%- unmute
 bindsym Mod1+F3 exec amixer -q set Master toggle
 
 bindsym $mod+Shift+a focus child
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
 
 # Hotkeys for laptop
 #bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ unmute
