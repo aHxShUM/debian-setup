@@ -8,7 +8,6 @@ echo '
 
 # Program
 exec --no-startup-id dropbox start -i
-exec --no-startup-id ibus-daemon --xim -d -r
 
 # Hotkeys
 bindsym Mod1+F1 exec amixer -q set Master 2%+ unmute
