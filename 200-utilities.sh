@@ -8,7 +8,8 @@ apt-get install \
 apt-get install \
   gimp \
   inkscape \
-  feh
+  feh \
+  gpick
 
 # PDF
 apt-get install \
