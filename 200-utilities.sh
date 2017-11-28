@@ -16,3 +16,7 @@ apt-get install \
   xournal \
   pdfmod \
   pdfshuffler
+
+# Video
+apt-get install \
+  ffmpeg
