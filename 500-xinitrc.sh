@@ -14,4 +14,10 @@ export QT_IM_MODULE=xim
 export XMODIFIERS=@im=fcitx
 fcitx
 
-. /etc/X11/Xsession' | tee ~/.xinitrc
+. /etc/X11/Xsession
+' | tee ~/.xinitrc
+
+echo '*metaSendsEscape: true
+*altSendsEscape: true
+*eightBitInput: false
+' | tee ~/.Xresources
