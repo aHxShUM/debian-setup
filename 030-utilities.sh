@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Tool
+apt-get install \
+  tmux \
+  ranger
+
 # Office
 apt-get install \
   libreoffice
