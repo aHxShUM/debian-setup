@@ -15,7 +15,9 @@ apt-get install \
   sudo \
   alsa-utils \
   tree \
-  whois
+  whois \
+  ranger \
+  tmux
 
 # add to sudoer
 adduser <user> sudo
