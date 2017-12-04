@@ -11,8 +11,7 @@ xset dpms 0 0 0
 
 export GTK_IM_MODULE=xim
 export QT_IM_MODULE=xim
-export XMODIFIERS=@im=fcitx
-fcitx
+export XMODIFIERS=@im=xim
 
 . /etc/X11/Xsession
 ' | tee ~/.xinitrc
