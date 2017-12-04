@@ -25,4 +25,4 @@ adduser <user> sudo
 # Clipboard manager
 # list : https://wiki.archlinux.org/index.php/clipboard
 # choices : copyq, xclip, xcopy, clipit, xsel
-apt-get install xsel
+apt-get install xclip
