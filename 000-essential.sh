@@ -26,3 +26,6 @@ adduser <user> sudo
 # list : https://wiki.archlinux.org/index.php/clipboard
 # choices : copyq, xclip, xcopy, clipit, xsel
 apt-get install xclip
+
+# Screenshot
+apt-get install scrot
