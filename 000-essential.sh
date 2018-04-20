@@ -17,7 +17,9 @@ apt-get install \
   tree \
   whois \
   ranger \
-  tmux
+  tmux \
+  bc \
+  jq
 
 # add to sudoer
 adduser <user> sudo
