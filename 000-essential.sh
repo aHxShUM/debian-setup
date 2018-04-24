@@ -21,9 +21,6 @@ apt-get install \
   bc \
   jq
 
-# add to sudoer
-adduser <user> sudo
-
 # Clipboard manager
 # list : https://wiki.archlinux.org/index.php/clipboard
 # choices : copyq, xclip, xcopy, clipit, xsel
