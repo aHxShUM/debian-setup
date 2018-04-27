@@ -1,7 +1,7 @@
 #!/bin/sh
 
 apt-get install \
-  vim \
+  vim-nox \
   xorg \
   i3 \
   p7zip-full \
