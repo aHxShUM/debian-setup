@@ -36,6 +36,6 @@ set background=dark
 set t_Co=256
 syntax on
 
+map <C-\> :NERDTreeToggle<CR>
 let g:ctrlp_show_hidden = 1
-let g:multi_cursor_use_default_mapping = 0
 " | tee ~/.vimrc
