@@ -25,6 +25,7 @@ Plug 'valloric/youcompleteme'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-repeat'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
