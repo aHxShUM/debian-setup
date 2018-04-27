@@ -5,8 +5,12 @@
 # to /etc/vim/vimrc
 # for respecting vimrc.local
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+file="~/.vim/autoload/plug.vim"
+
+if [ -f "$file" ] then
+    curl -fLo "$file" --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
 
 echo "call plug#begin()
 
