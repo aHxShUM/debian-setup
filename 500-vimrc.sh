@@ -11,7 +11,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 echo "call plug#begin()
 
 Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'cespare/vim-toml'
+Plug 'toml-lang/toml'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'kien/ctrlp.vim'
