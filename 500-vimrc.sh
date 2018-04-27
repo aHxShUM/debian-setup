@@ -35,6 +35,7 @@ set formatoptions-=cro
 set background=dark
 set t_Co=256
 syntax on
+set paste
 
 map <C-\> :NERDTreeToggle<CR>
 
