@@ -35,4 +35,7 @@ set formatoptions-=cro
 set background=dark
 set t_Co=256
 syntax on
+
+let g:ctrlp_show_hidden = 1
+let g:multi_cursor_use_default_mapping = 0
 " | tee ~/.vimrc
