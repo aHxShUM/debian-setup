@@ -27,9 +27,11 @@ Plug 'tpope/vim-repeat'
 
 call plug#end()
 
-:set mouse-=a
-:set tabstop=2 shiftwidth=2 softtabstop=2
-:set expandtab
-:set formatoptions-=cro
-:syntax on
+set mouse-=a
+set tabstop=2 shiftwidth=2 softtabstop=2
+set expandtab
+set formatoptions-=cro
+set background=dark
+set t_Co=256
+syntax on
 " | tee ~/.vimrc
