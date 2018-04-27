@@ -21,7 +21,6 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'valloric/youcompleteme'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-repeat'
 Plug 'terryma/vim-multiple-cursors'
@@ -38,5 +37,7 @@ set t_Co=256
 syntax on
 
 map <C-\> :NERDTreeToggle<CR>
+
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_max_files=0
 " | tee ~/.vimrc
