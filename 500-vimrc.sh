@@ -24,6 +24,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'valloric/youcompleteme'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-repeat'
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
