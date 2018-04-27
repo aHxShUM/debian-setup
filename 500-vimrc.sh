@@ -5,10 +5,8 @@
 # to /etc/vim/vimrc
 # for respecting vimrc.local
 
-file="~/.vim/autoload/plug.vim"
-
-if [ ! -f "$file" ]; then
-    curl -fLo "$file" --create-dirs \
+if [ ! -f ~/.vim/autoload/plug.vim ]; then
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
