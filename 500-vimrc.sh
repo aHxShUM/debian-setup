@@ -38,6 +38,8 @@ syntax on
 set paste
 
 map <C-\> :NERDTreeToggle<CR>
+map <C-c> :w !xclip -i -sel c<CR><CR>
+map <C-v> :r!xclip -o -sel c<CR>
 
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_max_files=0
