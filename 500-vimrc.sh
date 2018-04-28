@@ -27,6 +27,7 @@ Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-repeat'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'godlygeek/tabular'
 
 call plug#end()
 
@@ -38,11 +39,19 @@ set background=dark
 set t_Co=256
 syntax on
 set paste
+set pastetoggle=<F2>
 
 map <C-\> :NERDTreeToggle<CR>
-map <C-c> :w !xclip -i -sel c<CR><CR>
-map <C-v> :r!xclip -o -sel c<CR>
+map <C-e>cc :w !xclip -i -sel c<CR>
+map <C-e>cp :w !xclip -i -sel p<CR>
+map <C-e>cs :w !xclip -i -sel s<CR>
+map <C-e>pp :r!xclip -o -sel p<CR>
+map <C-e>ps :r!xclip -o -sel s<CR>
+map <C-e>pc :r!xclip -o -sel c<CR>
 
 let g:ctrlp_show_hidden = 1
-let g:ctrlp_max_files=0
+let g:ctrlp_max_files = 0
+
+let g:multi_cursor_use_default_mapping = 1
+let g:multi_cursor_exit_from_insert_mode = 0
 " | tee ~/.vimrc
