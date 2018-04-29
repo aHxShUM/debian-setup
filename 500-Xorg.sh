@@ -12,14 +12,16 @@ xset dpms 0 0 0
 . /etc/X11/Xsession
 ' | tee ~/.xinitrc
 
-echo '**metaSendsEscape: true
-*altSendsEscape: true
-*eightBitInput: false
+echo 'XTerm*metaSendsEscape: true
+XTerm*altSendsEscape: true
+XTerm*eightBitInput: false
 
-*translations: #override \n\
+XTerm*vt100*translations: #override \n\
 	Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
 	Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
 
-! *faceName: 
-! *faceSize: 12
+! *vt100*faceName: NotoSerif Nerd Font Mono
+! *vt100*faceSize: 10
+
+XTerm*termName: xterm-256color
 ' | tee ~/.Xresources
