@@ -10,9 +10,10 @@ xset r rate 250 50
 xset s off
 xset dpms 0 0 0
 
-. /etc/X11/Xsession
-EOF
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
+exec i3
+EOF
 
 tee ~/.Xresources << 'EOF'
 xterm*termName: xterm-256color
@@ -26,4 +27,6 @@ xterm*translations: #override \n\
 
 ! xterm*faceName: NotoSerif Nerd Font Mono
 ! xterm*faceSize: 10
+xterm*background: black
+xterm*foreground: white
 EOF
