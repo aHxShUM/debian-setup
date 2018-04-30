@@ -13,13 +13,14 @@ xset dpms 0 0 0
 . /etc/X11/Xsession
 EOF
 
+
 tee ~/.Xresources << EOF
 *metaSendsEscape: true
 *altSendsEscape: true
 *eightBitInput: false
 
-*translations: #override \n\
-        Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+*translations: #override \n\\
+        Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\\
         Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
 
 ! *vt100*faceName: NotoSerif Nerd Font Mono
