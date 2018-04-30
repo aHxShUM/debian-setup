@@ -18,13 +18,15 @@ sudo cpupower frequency-set -u 1.2GHz
 # Touchpad
 # detail : https://wiki.debian.org/SynapticsTouchpad
 mkdir -p /etc/X11/xorg.conf.d
-echo 'Section "InputClass"
+tee /etc/X11/xorg.conf.d/40-libinput.conf << EOF
+Section "InputClass"
   Identifier "libinput touchpad catchall"
   MatchIsTouchpad "on"
   MatchDevicePath "/dev/input/event*"
   Driver "libinput"
   Option "Tapping" "on"
-EndSection' | tee /etc/X11/xorg.conf.d/40-libinput.conf
+EndSection
+EOF
 
 # fix Dropbox
 LD_LIBRARY_PATH=~/.dropbox-dist/dropbox-lnx.x86_64-3.8.8/

@@ -1,11 +1,7 @@
 #!/bin/sh
 
-# Power management
-apt-get install \
-  linux-cpupower \
-  tlp \
-  powertop
+pkgs=""
+pkgs="$pkgs linux-cpupower tlp powertop"
+pkgs="$pkgs xbacklight"
 
-# Backlight
-apt-get install \
-  xbacklight
+apt-get install "$pkgs"

@@ -10,7 +10,8 @@ if [ ! -f ~/.vim/autoload/plug.vim ]; then
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
-echo "call plug#begin()
+tee ~/.vimrc << EOF
+call plug#begin()
 
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'toml-lang/toml'
@@ -70,4 +71,4 @@ let g:airline_powerline_fonts = 1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = '  '
 let g:DevIconsEnableFoldersOpenClose = 1
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
-" | tee ~/.vimrc
+EOF

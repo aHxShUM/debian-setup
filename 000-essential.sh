@@ -1,30 +1,9 @@
 #!/bin/sh
 
-apt-get install \
-  vim-nox \
-  xorg \
-  i3 \
-  p7zip-full \
-  net-tools \
-  dnsutils \
-  wireless-tools \
-  wpasupplicant \
-  git \
-  firefox-esr \
-  curl \
-  sudo \
-  alsa-utils \
-  tree \
-  whois \
-  ranger \
-  tmux \
-  bc \
-  jq
+pkgs=""
+pkgs="$pkgs net-tools dnsutils wireless-tools wpasupplicant whois"
+pkgs="$pkgs xorg i3 p7zip-full firefox-esr curl sudo ranger tmux bc alsa-utils"
+pkgs="$pkgs vim-nox git jq"
+pkgs="$pkgs xclip scrot feh"
 
-# Clipboard manager
-# list : https://wiki.archlinux.org/index.php/clipboard
-# choices : copyq, xclip, xcopy, clipit, xsel
-apt-get install xclip
-
-# Screenshot
-apt-get install scrot
+apt-get install "$pkgs"
