@@ -3,7 +3,7 @@
 | evince      | pdf?             |
 | **feh**     | image display    |
 | ffmpeg      | video processor  |
-| gimp        | image            |
+| **gimp**    | image            |
 | gpick       | color picker     |
 | imagemagick | image            |
 | inkscape    | image            |
